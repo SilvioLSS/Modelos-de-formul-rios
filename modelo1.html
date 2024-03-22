@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 1 Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Envio</h1>
+    </header>
+    <br>
+    <main>
+        <form action="acaoteste" method="post">
+            <label>Nome: </label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label>Email: </label>
+            <input type="text" name="Email" id="Email" required>
+            <br>
+            <br>
+            <label">Senha: </label>
+            <input type="password" name="senha" id="senha" required>
+            <br>
+            <br>
+            <label>Selecione um arquivo: </label>
+            <input type="file" name="arquivo" id="arquivo" accept=".jpg, .png, .jpeg" required>
+            <br>
+            <br>
+            <label>Escolha uma opção de envio: </label>
+            <br>
+            <input type="radio" name="option" id="option" value="1"> Expresso <br>
+            <input type="radio" name="option" id="option" value="2" checked> Padrão <br>
+            <input type="radio" name="option" id="option" value="3"> Econômia <br>
+            <br>
+            <br>
+            <input type="checkbox" name="termos" id="termos" required>
+            <label>Aceito os termos e condições</label>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </form>
+    </main>
+</body>
+</html>
